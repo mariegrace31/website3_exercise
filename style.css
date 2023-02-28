@@ -1,0 +1,63 @@
+.header{
+    background-image: url(images/background.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background-color: rgb(22, 22, 22);
+}
+.nav-links{
+    text-align: right;
+    padding: 20px;
+}
+.nav-links ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-links ul li{
+    display: inline;
+    padding: 10px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+.signup{
+    background-color:rgb(125, 34, 177);
+    color:black;
+}
+.nav-links ul li a:hover:not(.signup){
+    text-decoration: underline;
+}
+.text{
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 80px;
+    color: #fff;
+}
+.text h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.text p{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.text a{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #fff;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.text a:hover{
+    background-color: rgb(95, 29, 95);
+    color: black;
+}
